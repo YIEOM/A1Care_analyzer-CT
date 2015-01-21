@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <Button
+        android:id="@+id/escicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="728px"
+        android:background="@drawable/esc_selector" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="20px"
+        android:src="@drawable/setting_title" />
+            
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   		
+   	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="114px"
+        android:layout_marginTop="137px" >
+   	    
+   	    <Button
+	        android:id="@+id/systembtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/settingmodebtn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="30px"
+		    android:layout_centerHorizontal="true"
+	        android:src="@drawable/settingmode_icon1" />
+	        
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="180px" 
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+		    android:text="SYSTEM\nSETTING"
+	        android:typeface="sans"
+	        android:textSize="20px"
+	        android:textColor="#565656" />
+		    
+   	</RelativeLayout>
+
+ 	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="314px"
+        android:layout_marginTop="137px" >
+   	    
+   	    <Button
+	        android:id="@+id/databtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/settingmodebtn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="30px"
+		    android:layout_centerHorizontal="true"
+	        android:src="@drawable/settingmode_icon2" />
+	        
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="180px" 
+	        android:layout_centerHorizontal="true"
+		    android:gravity="center"
+		    android:text="DATA\nSETTING"
+	        android:typeface="sans"
+	        android:textSize="20px"
+	        android:textColor="#565656" />
+		    
+   	</RelativeLayout>
+
+ 	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="514px"
+        android:layout_marginTop="137px" >
+   	    
+   	    <Button
+	        android:id="@+id/operatorbtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/settingmodebtn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="30px"
+		    android:layout_centerHorizontal="true"
+	        android:src="@drawable/settingmode_icon3" />
+	        
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="180px" 
+	        android:layout_centerHorizontal="true"
+		    android:gravity="center"
+		    android:text="OPERATOR\nSETTING"
+	        android:typeface="sans"
+	        android:textSize="20px"
+	        android:textColor="#565656" />
+		    
+   	</RelativeLayout>
+   			
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_bg" >
+    
+    <TextView
+        android:id="@+id/oxtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160px"
+        android:layout_centerHorizontal="true"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#FFFFFF" />
+    
+   	<Button 
+        android:id="@+id/yesbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="208px"
+        android:layout_marginTop="222px"
+        android:background="@drawable/popup_v_selector" />
+
+   	<Button 
+        android:id="@+id/nobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="417px"
+        android:layout_marginTop="222px"
+        android:background="@drawable/popup_x_selector" />
+   	        
+</RelativeLayout>
+   	    

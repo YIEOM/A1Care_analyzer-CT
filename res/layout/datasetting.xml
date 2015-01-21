@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <Button
+        android:id="@+id/backicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_selector" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title"
+        android:background="#00000000" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="20px"
+        android:src="@drawable/ds_title"
+        android:background="#00000000" />
+            
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   		
+   	<Button
+        android:id="@+id/homeicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="728px"
+        android:background="@drawable/home_selector" />
+   	   	
+    <Button
+        android:id="@+id/patientbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="105px"
+        android:layout_marginTop="125px"
+        android:gravity="center"
+	    android:text="PATIENT DATA"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:background="@drawable/btn_selector4" />
+
+    <Button
+        android:id="@+id/controlbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="405px"
+        android:layout_marginTop="125px"
+        android:gravity="center"
+	    android:text="CONTROL DATA"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:background="@drawable/btn_selector4" />
+    	   
+    <Button
+        android:id="@+id/exportbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="105px"
+        android:layout_marginTop="250px"
+        android:gravity="center"
+	    android:text="EXPORT DATA"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:background="@drawable/btn_selector4" />
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="405px"
+        android:layout_marginTop="250px"
+        android:gravity="center"
+	    android:text="RESET DATA"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:background="@drawable/btn_selector4" />
+    
+</RelativeLayout>

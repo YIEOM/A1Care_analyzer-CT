@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/os_na_bg_full" >
+    
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="296px"
+        android:layout_marginTop="190px"
+        android:paddingLeft="20px"
+        android:textSize="24sp"
+        android:textColor="#565656"
+        android:maxLength="10"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:background="@drawable/os_id_pass" />
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="296px"
+        android:layout_marginTop="242px"
+        android:paddingLeft="20px"
+        android:textSize="24sp"
+        android:textColor="#565656"
+        android:maxLength="4"
+        android:singleLine="true"
+        android:inputType="numberPassword"
+        android:imeOptions="actionDone"
+        android:background="@drawable/os_id_pass" />
+    
+    <EditText
+        android:id="@+id/cpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="296px"
+        android:layout_marginTop="294px"
+        android:paddingLeft="20px"
+        android:textSize="24sp"
+        android:textColor="#565656"
+        android:maxLength="4"
+        android:singleLine="true"
+        android:inputType="numberPassword"
+        android:imeOptions="actionDone"
+        android:background="@drawable/os_id_pass" />
+    
+    <Button
+        android:id="@+id/donebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="554px"
+        android:layout_marginTop="188px"
+        android:background="@drawable/os_done_btn_selector" />
+    
+   	<Button
+        android:id="@+id/canclebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="550px"
+        android:layout_marginTop="296px"
+        android:background="@drawable/dv_cancel_selector" />
+    	    
+</RelativeLayout>

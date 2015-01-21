@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HbA1c_analyzer</string> 
+    <string name="action_settings">Settings</string>
+        
+	<string name="result">결과</string>
+	<string name="selection">선택</string>
+	<string name="datetime">날짜 및 시간</string>
+	<string name="testnum">테스트 번호</string>
+	<string name="type">형식</string>
+	<string name="e212">E212</string>
+	<string name="e211">E211</string>
+    <string name="e231">E231</string>
+    <string name="e232">E232</string>
+    <string name="e233">E233</string>
+    <string name="e234">E234</string>
+    <string name="e235">E235</string>
+    <string name="e222">E222</string>
+    <string name="e221">E221</string>
+    <string name="e241">E241</string>
+    <string name="e313">E313</string>
+    <string name="e111">E111</string>
+    <string name="e112">E112</string>
+    <string name="e121">E121</string>
+    <string name="e122">E122</string>
+    <string name="stop">중단</string>
+    <string name="blank">블랭크 측정 중입니다. 잠시만 기다려 주십시오</string>
+	<string name="previous">이전</string>
+    <string name="detail">자세히 보기</string>
+    <string name="next">다음</string>
+    <string name="save">저장</string>
+    <string name="print">출력</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="esc">현재 단계를 종료하고 홈화면으로 이동합니다</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="wait">잠시만 기다려 주세요.</string>
+    <string name="measure">측정 중입니다. 잠시만 기다려 주세요.</string>
+    <string name="remove">카트리지 제거가 완료되고 커버를 닫으면 자동으로 다음단계로 이동합니다</string>
+    <string name="korean">한국어</string>
+    <string name="english">영어</string>
+    <string name="def">초기화</string>
+    <string name="slope">기울기</string>
+    <string name="offset">오프셋</string>
+    <string name="testdate">테스트 날짜</string>
+    <string name="primary">프라이머리</string>
+    <string name="refrange">정상 범위</string>
+    <string name="refnum">레퍼런스#</string>
+    <string name="patientid">환자 ID</string>
+    <string name="operatorid">오퍼레이터 ID</string>
+    <string name="reset">설정 초기화</string>
+    <string name="operator">사용자</string>
+    <string name="registrationDate">등록날짜</string>
+    <string name="password">비밀번호</string>
+    <string name="comment">비고</string>
+    <string name="delete">삭제</string>
+    <string name="w001">도어를 닫아주세요</string>
+	<string name="w002">카트리지를 제거해 주세요</string>
+	<string name="w005">등록 ID 없음</string>
+	<string name="w006">비밀번호가 다름</string>
+	<string name="w011">ID 입력 바람</string>
+    <string name="w012">ID 중복</string>
+    <string name="w013">비밀번호 입력 바랍</string>
+    <string name="w014">확인용 비밀번호 입력 바랍</string>
+    <string name="w015">확인용 비밀번호 다름</string>
+    <string name="w016">현재 비밀번호 다름</string>
+    <string name="w017">새 비밀번호 입력 바랍</string>
+    <string name="w018">새 비밀번호 다름</string>
+    
+</resources>

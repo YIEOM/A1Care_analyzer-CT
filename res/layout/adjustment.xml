@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="20px"
+        android:src="@drawable/af_title" />
+    
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   	
+   	<Button
+        android:id="@+id/escicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="728px"
+        android:background="@drawable/esc_selector" />
+   	        
+   	<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31px"
+        android:layout_marginTop="243px"
+        android:src="@drawable/af_icon" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="195px"
+        android:layout_marginTop="169px"
+        android:src="@drawable/af_slope" />
+
+    <EditText
+        android:id="@+id/slopeetext"
+        android:layout_width="271px"
+        android:layout_height="62px"
+        android:layout_marginLeft="361px"
+        android:layout_marginTop="148px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="40px"
+        android:textColor="#565656"
+        android:inputType="none"
+        android:background="@drawable/af_slope_box" />
+        
+    <!-- <EditText
+        android:id="@+id/slopeetext"
+        android:layout_width="271px"
+        android:layout_height="62px"
+        android:layout_marginLeft="361px"
+        android:layout_marginTop="148px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="40px"
+        android:textColor="#565656"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal|numberSigned"
+        android:longClickable="false"
+        android:background="@drawable/af_slope_box" /> -->
+            
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="158px"
+        android:layout_marginTop="322px"
+        android:src="@drawable/af_intercept" />
+
+    <EditText
+        android:id="@+id/offsetetext"
+        android:layout_width="271px"
+        android:layout_height="62px"
+        android:layout_marginLeft="361px"
+        android:layout_marginTop="304px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="40px"
+        android:textColor="#565656"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal|numberSigned"
+        android:longClickable="false"
+        android:background="@drawable/af_intercept_box" />
+
+    <android.inputmethodservice.KeyboardView
+        android:layout_marginLeft="500px"
+        android:layout_marginTop="180px"
+        android:id="@+id/customkeyboard"
+        android:layout_height="300px"
+        android:layout_width="300px"
+        android:visibility="gone"
+        android:keyBackground="@drawable/btn"
+        android:keyTextColor="#00f000" />
+    
+</RelativeLayout>

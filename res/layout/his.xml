@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title"
+        android:background="#00000000" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="12px"
+        android:src="@drawable/his"
+        android:background="#00000000" />
+            
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="523px"
+        android:layout_marginTop="10px"
+        android:src="@drawable/main_usb"
+        android:background="#00000000" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   	
+   	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="180px"
+        android:text="Patient ID"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#242424" />
+   	
+	<TextView
+	    android:id="@+id/ackText"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120px"
+        android:text="ACK Message"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#008900" />
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="210px"
+        android:text="Name"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#242424" />
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="240px"
+        android:text="Birth"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#242424" />
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="270px"
+        android:text="Gender"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#242424" />
+   		
+	<TextView
+	    android:id="@+id/patientidtext"
+        android:layout_width="150px"
+        android:layout_height="28px"
+        android:layout_marginLeft="410px"
+        android:layout_marginTop="180px"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#242424"
+        android:background="#FFFFFF" />
+	
+	<TextView
+	    android:id="@+id/nametext"
+        android:layout_width="150px"
+        android:layout_height="28px"
+        android:layout_marginLeft="410px"
+        android:layout_marginTop="210px"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#242424"
+        android:background="#FFFFFF" />
+	
+	<TextView
+	    android:id="@+id/birthtext"
+        android:layout_width="150px"
+        android:layout_height="28px"
+        android:layout_marginLeft="410px"
+        android:layout_marginTop="240px"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#242424"
+        android:background="#FFFFFF" />
+	
+	<TextView
+	    android:id="@+id/gendertext"
+        android:layout_width="150px"
+        android:layout_height="28px"
+        android:layout_marginLeft="410px"
+        android:layout_marginTop="270px"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#242424"
+        android:background="#FFFFFF" />
+	
+   	<Button 
+        android:id="@+id/sendpidbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165px"
+        android:layout_marginTop="370px"
+        android:text="Send PID"
+        android:typeface="sans"
+    	android:textSize="20px"
+    	android:textColor="#FFFFFF"
+        android:background="@drawable/btn_selector7" />
+   	
+   	<Button 
+        android:id="@+id/sendorubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="328px"
+        android:layout_marginTop="370px"
+        android:text="Send ORU"
+        android:typeface="sans"
+    	android:textSize="20px"
+    	android:textColor="#FFFFFF"
+        android:background="@drawable/btn_selector7" />
+    
+   	<Button 
+        android:id="@+id/cancelbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="491px"
+        android:layout_marginTop="370px"
+        android:text="Cancel"
+        android:typeface="sans"
+    	android:textSize="20px"
+    	android:textColor="#38506A"
+        android:background="@drawable/btn_selector8" />
+   	
+</RelativeLayout>

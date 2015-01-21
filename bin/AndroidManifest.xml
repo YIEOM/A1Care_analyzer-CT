@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="isens.hba1c_analyzer"
+    android:versionCode="1"
+    android:versionName="A1Care_v1.3.03-CT"
+    android:sharedUserId="android.uid.system" >
+    
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="16" />
+ 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SET_TIME"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <application        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:largeHeap="true" >
+        
+        <activity
+            android:name="isens.hba1c_analyzer.SystemCheckActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+      			<category android:name="android.intent.category.HOME" />
+      			<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="RemoveActivity">
+            <intent-filter >
+           	    <action android:name=""/>
+           	</intent-filter>
+        </activity>
+        <activity android:name="ActionActivity"></activity>
+        <activity android:name="TestActivity"></activity>
+        <activity android:name="RunActivity"></activity>
+        <activity android:name="BlankActivity"></activity>
+        <activity android:name="ResultActivity"></activity>
+    	<activity android:name="MemoryActivity"></activity>
+    	<activity android:name="SettingActivity"></activity>
+    	<activity android:name="SystemSettingActivity"></activity>
+    	<activity android:name="PatientTestActivity">
+    	    <intent-filter >
+           	    <action android:name=""/>
+           	</intent-filter>
+    	</activity>
+    	<activity android:name="ControlTestActivity">
+    	    <intent-filter >
+           	    <action android:name=""/>
+           	</intent-filter>
+    	</activity>
+    	<activity android:name="ExportActivity"></activity>
+    	<activity android:name="Image"></activity>
+    	<activity android:name="DataSettingActivity"></activity>
+    	<activity android:name="OperatorSettingActivity"></activity>
+    	<activity android:name="DateActivity"></activity>
+    	<activity android:name="TimeActivity"></activity>
+    	<activity android:name="DisplayActivity"></activity>
+    	<activity android:name="FileSaveActivity" android:process="com.android.phone"></activity>
+    	<activity android:name="FileLoadActivity" android:process="com.android.phone"></activity>
+		<activity android:name="HISSettingActivity"></activity>
+		<activity android:name="HISActivity"></activity>
+		<activity android:name="AdjustmentFactorActivity"
+		    android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+		<activity android:name="CorrelationFactorActivity"></activity>
+		<activity android:name="SoundActivity"></activity>
+		<activity android:name="HomeActivity"></activity>
+		<activity android:name="CalibrationActivity"></activity>
+		<activity android:name="LanguageActivity"></activity>
+		<activity android:name="TempFileSaveActivity" android:process="com.android.phone"></activity>
+		<activity android:name="TemperatureActivity">
+    	    <intent-filter >
+           	    <action android:name=""/>
+           	</intent-filter>
+    	</activity>
+    	<activity android:name="ShakingActivity"></activity>
+    	<activity android:name="PhotoActivity"></activity>
+    	<activity android:name="BarPriLanActivity"></activity>
+    	<activity android:name="ExtScanActivity"></activity>
+    	<activity android:name="EthernetActivity"></activity>
+    	
+    </application>
+    
+</manifest>

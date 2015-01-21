@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+	
+    <item android:drawable="@drawable/ani_close1" android:duration="200" />
+    <item android:drawable="@drawable/ani_close3" android:duration="60" />
+    <item android:drawable="@drawable/ani_close5" android:duration="70" />
+    <item android:drawable="@drawable/ani_close7" android:duration="80" />
+    <item android:drawable="@drawable/ani_close9" android:duration="90" />
+    <item android:drawable="@drawable/ani_close10" android:duration="100" />
+    <item android:drawable="@drawable/ani_close11" android:duration="110" />
+    <item android:drawable="@drawable/ani_close12" android:duration="120" />
+    <item android:drawable="@drawable/ani_close13" android:duration="130" />
+    <item android:drawable="@drawable/ani_close14" android:duration="140" />
+    <item android:drawable="@drawable/ani_close15" android:duration="150" />
+    <item android:drawable="@drawable/ani_close16" android:duration="500" />
+    
+</animation-list>

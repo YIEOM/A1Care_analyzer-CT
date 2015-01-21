@@ -1,0 +1,399 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="20px"
+        android:src="@drawable/cal_title" />
+    
+    <TextView
+        android:id="@+id/devicestate"
+        android:layout_width="150px"
+        android:layout_height="50px"
+        android:layout_marginLeft="330px"
+        android:layout_marginTop="5px"
+        android:gravity="center"
+        android:text="READY"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textStyle="bold"
+        android:textColor="#008000" />
+    
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   	
+   	<Button
+        android:id="@+id/escicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="728px"
+        android:background="@drawable/esc_selector" />
+   	
+   	<Button
+        android:id="@+id/blankbtn"
+        android:layout_width="129px"
+        android:layout_height="114px"
+        android:layout_marginLeft="13px"
+        android:layout_marginTop="91px"
+        android:gravity="center"
+	    android:text="BLANK"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:background="@drawable/systemsetting_btn_selector" />
+   	
+   	<Button
+        android:id="@+id/quickbtn"
+        android:layout_width="129px"
+        android:layout_height="113px"
+        android:layout_marginLeft="13px"
+        android:layout_marginTop="322px"
+        android:gravity="center"
+	    android:text="Q.\nSTART"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/quick_start_selector" />
+   	
+   	<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="157px"
+        android:layout_marginTop="92px"
+        android:src="@drawable/cal_abs" />
+   	
+   	<TextView
+        android:layout_width="152px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="157px"
+        android:layout_marginTop="66px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="18px"
+        android:textColor="#FFFFFF"
+        android:text="535nm" />
+   	
+   	<TextView
+        android:layout_width="152px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="324px"
+        android:layout_marginTop="66px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="18px"
+        android:textColor="#FFFFFF"
+        android:text="660nm" />
+   		
+   	<TextView
+        android:layout_width="152px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="491px"
+        android:layout_marginTop="66px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="18px"
+        android:textColor="#FFFFFF"
+        android:text="750nm" />
+   	
+   	<TextView
+        android:id="@+id/oneone" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="157px"
+        android:layout_marginTop="98px" 
+        android:gravity="center" 
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/onetwo" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="324px"
+        android:layout_marginTop="98px" 
+        android:gravity="center" 
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/onethree" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="491px"
+        android:layout_marginTop="98px" 
+        android:gravity="center" 
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+    	
+   	<TextView
+        android:id="@+id/twoone" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="157px"
+        android:layout_marginTop="154px" 
+        android:gravity="center" 
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	   	
+   	<TextView
+        android:id="@+id/twotwo" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="324px"
+        android:layout_marginTop="154px" 
+        android:gravity="center" 
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/twothree" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="491px"
+        android:layout_marginTop="154px" 
+        android:gravity="center" 
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/threeone" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="157px"
+        android:layout_marginTop="210px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/threetwo" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="324px"
+        android:layout_marginTop="210px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/threethree" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="491px"
+        android:layout_marginTop="210px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/fourone" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="157px"
+        android:layout_marginTop="285px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/fourtwo" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="324px"
+        android:layout_marginTop="285px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/fourthree" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="491px"
+        android:layout_marginTop="285px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+
+   	<TextView
+        android:id="@+id/fiveone" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="157px"
+        android:layout_marginTop="341px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/fivetwo" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="324px"
+        android:layout_marginTop="341px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/fivethree" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="491px"
+        android:layout_marginTop="341px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />   	
+   	
+   	<TextView
+        android:id="@+id/sixone" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="157px"
+        android:layout_marginTop="397px"  
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/sixtwo" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="324px"
+        android:layout_marginTop="397px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />
+   	
+   	<TextView
+        android:id="@+id/sixthree" 
+        android:layout_width="152px"
+        android:layout_height="43px"
+        android:layout_marginLeft="491px"
+        android:layout_marginTop="397px" 
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#000000" />   	
+   	
+    <Button
+        android:id="@+id/scanbtn"
+        android:layout_width="129px"
+        android:layout_height="57px"
+        android:layout_marginLeft="661px"
+        android:layout_marginTop="91px"
+        android:gravity="center"
+	    android:text="SCAN"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:background="@drawable/btn_selector5" />
+    
+	<ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="706px"
+        android:layout_marginTop="166px"
+        android:src="@drawable/cal_thb" />
+	
+	<ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="673px"
+        android:layout_marginTop="189px"
+        android:src="@drawable/cal_result" />
+	
+	<TextView
+        android:id="@+id/tHbText" 
+        android:layout_width="105px"
+        android:layout_height="40px"
+        android:layout_marginLeft="673px"
+        android:layout_marginTop="189px"
+        android:gravity="center" 
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#FFFFFF"
+        android:background="#000000" />
+   	
+	<ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="691px"
+        android:layout_marginTop="236px"
+        android:src="@drawable/cal_hba1c" />
+		
+   	<TextView
+        android:id="@+id/HbA1cText" 
+        android:layout_width="105px"
+        android:layout_height="40px"
+        android:layout_marginLeft="673px"
+        android:layout_marginTop="258px"
+        android:gravity="center" 
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#FFFFFF"
+        android:background="#000000" />
+   	
+   	<Button
+        android:id="@+id/fullbtn"
+        android:layout_width="129px"
+        android:layout_height="114px"
+        android:layout_marginLeft="660px"
+        android:layout_marginTop="322px"
+        android:gravity="center"
+	    android:text="F.\nSTART"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/full_start_selector" />
+   	
+</RelativeLayout>

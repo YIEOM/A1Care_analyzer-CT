@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/networklayout" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title" />
+    
+    <TextView
+        android:id="@+id/testsubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="20px"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:text="NETWORK" />
+    
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   	
+   	<Button
+        android:id="@+id/escicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="728px"
+        android:background="@drawable/esc_selector" />
+   	
+   	<TextView
+   	    android:id="@+id/testsubstate"
+        android:layout_width="391px"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="120px"
+        android:gravity="center" />
+   	
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="120px"
+        android:paddingLeft="10px"
+        android:textSize="18px"
+        android:textColor="#565656"
+        android:gravity="center"
+        android:text="IP Address" />
+    
+    <EditText
+        android:id="@+id/ipetext"
+        android:layout_width="200px"
+        android:layout_height="50px"
+        android:layout_marginLeft="180px"
+        android:layout_marginTop="120px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="24px"
+        android:textColor="#4169E1"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        android:longClickable="false"
+        android:background="@drawable/af_slope_box" />
+    
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="230px"
+        android:paddingLeft="10px"
+        android:textSize="18px"
+        android:textColor="#565656"
+        android:gravity="center"
+        android:text="Subnet mask" />
+    
+    <EditText
+        android:id="@+id/netmasketext"
+        android:layout_width="200px"
+        android:layout_height="50px"
+        android:layout_marginLeft="180px"
+        android:layout_marginTop="230px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="24px"
+        android:textColor="#4169E1"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        android:longClickable="false"
+        android:background="@drawable/af_slope_box" />
+    
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="340px"
+        android:paddingLeft="10px"
+        android:textSize="18px"
+        android:textColor="#565656"
+        android:gravity="center"
+        android:text="Gateway" />
+    
+    <EditText
+        android:id="@+id/gateetext"
+        android:layout_width="200px"
+        android:layout_height="50px"
+        android:layout_marginLeft="180px"
+        android:layout_marginTop="340px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="24px"
+        android:textColor="#4169E1"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        android:longClickable="false"
+        android:background="@drawable/af_slope_box" />
+    
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="120px"
+        android:paddingLeft="10px"
+        android:textSize="18px"
+        android:textColor="#565656"
+        android:gravity="center"
+        android:text="Server IP" />
+    
+    <EditText
+        android:id="@+id/serveretext"
+        android:layout_width="200px"
+        android:layout_height="50px"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="120px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="24px"
+        android:textColor="#4169E1"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        android:longClickable="false"
+        android:background="@drawable/af_slope_box" />
+    
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="230px"
+        android:paddingLeft="10px"
+        android:textSize="18px"
+        android:textColor="#565656"
+        android:gravity="center"
+        android:text="DNS 1" />
+    
+    <EditText
+        android:id="@+id/dns1etext"
+        android:layout_width="200px"
+        android:layout_height="50px"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="230px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="24px"
+        android:textColor="#4169E1"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        android:longClickable="false"
+        android:background="@drawable/af_slope_box" />
+    
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="50px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="340px"
+        android:paddingLeft="10px"
+        android:textSize="18px"
+        android:textColor="#565656"
+        android:gravity="center"
+        android:text="DNS 2" />
+    
+    <EditText
+        android:id="@+id/dns2etext"
+        android:layout_width="200px"
+        android:layout_height="50px"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="340px"
+        android:paddingLeft="10px"
+        android:ems="10"
+        android:textSize="24px"
+        android:textColor="#4169E1"
+        android:singleLine="true" 
+        android:imeOptions="actionDone"
+        android:longClickable="false"
+        android:background="@drawable/af_slope_box" />
+
+</RelativeLayout>

@@ -1,0 +1,260 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/systemsettinglinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title"
+        android:background="#00000000" />
+    
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   		
+   	<Button
+        android:id="@+id/escicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="728px"
+        android:background="@drawable/esc_selector" />
+   	   	
+   	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="30px"
+        android:layout_marginTop="134px" >
+   	    
+   	    <Button
+	        android:id="@+id/shakingbtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="70px" 
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+		    android:text="SHAKING\nMODE"
+	        android:typeface="sans"
+	        android:textSize="18px"
+	        android:textColor="#242424" />
+		    
+   	</RelativeLayout>
+
+ 	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="182px"
+        android:layout_marginTop="134px" >
+   	    
+   	    <Button
+	        android:id="@+id/photobtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="70px" 
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+		    android:text="PHOTO\nACCURACY"
+	        android:typeface="sans"
+	        android:textSize="18px"
+	        android:textColor="#242424" />
+		    
+   	</RelativeLayout>
+
+ 	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="335px"
+        android:layout_marginTop="134px" >
+   	    
+   	    <Button
+	        android:id="@+id/barprintlanbtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="70px" 
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+		    android:text="COMMUNI-\nCATION"
+	        android:typeface="sans"
+	        android:textSize="18px"
+	        android:textColor="#242424" />
+		    
+   	</RelativeLayout>
+
+ 	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="486px"
+        android:layout_marginTop="134px" >
+   	    
+   	    <Button
+	        android:id="@+id/extscanbtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="70px" 
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:typeface="sans"
+	        android:textSize="18px"
+	        android:textColor="#242424" />
+		    
+   	</RelativeLayout>			
+   	
+ 	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="639px"
+        android:layout_marginTop="134px" >
+   	    
+   	    <Button
+   	        android:id="@+id/stablebtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="70px" 
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:typeface="sans"
+	        android:textSize="18px"
+	        android:textColor="#242424" />
+		    
+   	</RelativeLayout>
+ 	
+ 	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="30px"
+        android:layout_marginTop="269px" >
+   	    
+   	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="70px" 
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:typeface="sans"
+	        android:textSize="18px"
+	        android:textColor="#242424" />
+		    
+   	</RelativeLayout>
+   	
+ 	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="182px"
+        android:layout_marginTop="269px" >
+   	    
+   	    <Button
+	        android:id="@+id/cbtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_marginTop="70px" 
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:typeface="sans"
+	        android:textSize="18px"
+	        android:textColor="#242424" />
+		    
+   	</RelativeLayout>
+ 	
+ 	<Button
+        android:id="@+id/nbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="335px"
+        android:layout_marginTop="269px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="18px"
+        android:textColor="#242424"
+        android:background="@drawable/systemsetting_btn_selector" />
+    
+    <Button
+        android:id="@+id/pbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="486px"
+        android:layout_marginTop="269px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="18px"
+        android:textColor="#242424"
+        android:background="@drawable/systemsetting_btn_selector" />
+    
+   	<Button
+        android:id="@+id/netbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="639px"
+        android:layout_marginTop="269px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="18px"
+        android:textColor="#242424"
+        android:text="NETWORK"
+        android:background="@drawable/systemsetting_btn_selector" />
+   	
+    <TextView
+   	    android:id="@+id/versiontext"
+	    android:layout_width="200px"
+	    android:layout_height="30px"
+	    android:layout_marginLeft="590px"
+	    android:layout_marginTop="440px"
+	    android:gravity="bottom|right"
+        android:typeface="sans"
+        android:textSize="18px"
+        android:textColor="#04A458" />
+    	        
+</RelativeLayout>

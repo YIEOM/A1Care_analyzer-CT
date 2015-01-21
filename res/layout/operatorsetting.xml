@@ -1,0 +1,492 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/operatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <Button
+        android:id="@+id/backicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_selector" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title" />
+    
+     <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="20px"
+        android:src="@drawable/os_title" />
+            
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   		
+   	<Button
+        android:id="@+id/homeicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="728px"
+        android:background="@drawable/home_selector" />
+	
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65px"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/list_back" >
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:layout_marginLeft="24px"
+        	android:layout_marginTop="60px"
+            android:background="@drawable/line_h" />
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135px"
+            android:layout_marginTop="18px"
+            android:background="@drawable/line_v" />
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255px"
+            android:layout_marginTop="18px"
+            android:background="@drawable/line_v" />
+       
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="475px"
+            android:layout_marginTop="18px"
+            android:background="@drawable/line_v" />
+       
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="595px"
+            android:layout_marginTop="18px"
+            android:background="@drawable/line_v" />
+       
+        <TableLayout 
+            android:layout_width="750px"
+            android:layout_height="40px"
+            android:layout_marginTop="20px"
+            android:layout_centerHorizontal="true">
+           
+           <TableRow >
+                
+                <TextView                    
+                    android:layout_width="110px"
+                    android:layout_height="40px"
+                    android:typeface="sans"
+		            android:textSize="18px"
+		            android:textColor="#565656"
+		            android:text="@string/selection"
+		            android:gravity="center" />                
+                <TextView                    
+                    android:text="@string/operator"
+                    android:typeface="sans" 
+		            android:textSize="18px"
+                    android:layout_width="120px"
+                    android:layout_height="40px"
+		            android:textColor="#565656"
+		            android:gravity="center" />
+                <TextView
+                    android:text="@string/registrationDate"
+                    android:typeface="sans" 
+		            android:textSize="18px"
+                    android:layout_width="220px"
+		           	android:textColor="#565656"
+                    android:gravity="center" />
+                <TextView
+                    android:text="@string/password"
+                    android:typeface="sans" 
+		            android:textSize="18px"
+                    android:layout_width="120px"
+		           	android:textColor="#565656"
+                    android:gravity="center" />
+                <TextView
+                    android:text="@string/comment"
+                    android:typeface="sans" 
+		            android:textSize="18px"
+                    android:layout_width="180px"
+		            android:textColor="#565656"
+                    android:gravity="center" />
+                
+        	</TableRow>
+         
+        </TableLayout>   
+        
+    </RelativeLayout>
+       
+	<RelativeLayout 
+        android:layout_width="750px"
+        android:layout_height="275px"
+        android:layout_marginTop="127px"
+        android:layout_centerHorizontal="true" >
+        
+		<TableLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	    
+		    <TableRow
+    		    android:background="#00000000">
+   	            
+            	<RelativeLayout 
+			        android:layout_width="110px"
+			        android:layout_height="53px"
+			        android:gravity="center" >
+            	
+	            	<ImageButton
+	            	    android:id="@+id/chdckbox1"          
+	                    android:layout_width="50px"
+	                    android:layout_height="50px"
+	                    android:background="@drawable/checkbox" />
+                
+                </RelativeLayout>
+                <TextView                    
+                    android:id="@+id/operator1" 
+	            	android:typeface="sans" 
+	          	    android:textSize="18px"
+                    android:layout_width="120px"
+                    android:layout_height="53px"
+	            	android:textColor="#565656"
+	            	android:gravity="center" />
+                <TextView
+                    android:id="@+id/dateTime1" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                    android:layout_width="220px"
+	           		android:textColor="#565656"
+                    android:gravity="center" />
+               	<TextView
+                	android:id="@+id/password1" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                    android:layout_width="120px"
+	           		android:textColor="#565656"
+                    android:gravity="center" />
+               	<TextView
+                    android:id="@+id/comment1" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:layout_width="180px"
+	            	android:textColor="#565656"
+                   	android:gravity="center" />
+               	
+           	</TableRow>
+          
+	    	<ImageView 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:background="@drawable/line_h" />
+	    
+          	<TableRow
+                android:background="#00000000">
+               
+                <RelativeLayout 
+			        android:layout_width="110px"
+			        android:layout_height="53px"
+			        android:gravity="center" >
+            	
+	            	<ImageButton
+	            	    android:id="@+id/chdckbox2"          
+	                    android:layout_width="50px"
+	                    android:layout_height="50px"
+	                    android:background="@drawable/checkbox" />
+                
+                </RelativeLayout>
+                <TextView                    
+                    android:id="@+id/operator2" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                    android:layout_height="53px"
+		            android:textColor="#565656"
+		            android:gravity="center" />
+               	<TextView
+                	android:id="@+id/dateTime2" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                    android:textColor="#565656"
+                    android:gravity="center" />
+               	<TextView
+                	android:id="@+id/password2" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                    android:textColor="#565656"
+                    android:gravity="center" />
+                <TextView
+                	android:id="@+id/comment2" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" />
+               
+           	</TableRow>
+           
+          	<ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/line_h" />
+          	
+          	<TableRow
+                android:background="#00000000">
+               
+               	<RelativeLayout 
+			        android:layout_width="110px"
+			        android:layout_height="53px"
+			        android:gravity="center" >
+            	
+	            	<ImageButton
+	            	    android:id="@+id/chdckbox3"          
+	                    android:layout_width="50px"
+	                    android:layout_height="50px"
+	                    android:background="@drawable/checkbox" />
+                
+                </RelativeLayout>
+                <TextView                    
+                    android:id="@+id/operator3" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:layout_height="53px"
+	            	android:textColor="#565656"
+	            	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/dateTime3" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/password3" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:layout_width="70px"
+	           		android:textColor="#565656"
+                   	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/comment3" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" /> 
+           	
+           	</TableRow>
+           
+          	<ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/line_h" />
+          	
+          	<TableRow
+               	android:background="#00000000">
+               
+               	<RelativeLayout 
+			        android:layout_width="110px"
+			        android:layout_height="53px"
+			        android:gravity="center" >
+            	
+	            	<ImageButton
+	            	    android:id="@+id/chdckbox4"          
+	                    android:layout_width="50px"
+	                    android:layout_height="50px"
+	                    android:background="@drawable/checkbox" />
+                
+                </RelativeLayout>
+               	<TextView                    
+                   	android:id="@+id/operator4" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:layout_height="53px"
+	            	android:textColor="#565656"
+	            	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/dateTime4" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/password4" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/comment4" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" />
+               
+           	</TableRow>
+           
+          	<ImageView 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:background="@drawable/line_h" />
+          	
+          	<TableRow
+               	android:background="#00000000">
+               
+               	<RelativeLayout 
+			        android:layout_width="110px"
+			        android:layout_height="53px"
+			        android:gravity="center" >
+            	
+	            	<ImageButton
+	            	    android:id="@+id/chdckbox5"          
+	                    android:layout_width="50px"
+	                    android:layout_height="50px"
+	                    android:background="@drawable/checkbox" />
+                
+                </RelativeLayout>
+                
+               	<TextView                    
+                   	android:id="@+id/operator5" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:layout_height="53px"
+	            	android:textColor="#565656"
+	            	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/dateTime5" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/password5" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" />
+               	<TextView
+                   	android:id="@+id/comment5" 
+	            	android:typeface="sans" 
+	            	android:textSize="18px"
+                   	android:textColor="#565656"
+                   	android:gravity="center" />
+               
+           	</TableRow>
+            
+  	    </TableLayout>
+	        
+	</RelativeLayout>
+	   	    
+	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="145px"
+        android:layout_marginTop="403px" >
+   	    
+   	    <Button
+	        android:id="@+id/previousviewbtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/pdr_btn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+	        android:src="@drawable/pdr_left_icon" />
+	        
+   	</RelativeLayout>
+	
+	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="245px"
+        android:layout_marginTop="403px" >
+   	    
+   	    <Button
+	        android:id="@+id/loginbtn"
+	        android:layout_width="80px"
+	        android:layout_height="63px"
+	        android:background="@drawable/btn_selector7" />
+   	        
+   	</RelativeLayout>
+	
+    <Button
+        android:id="@+id/modifybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="337px"
+       	android:layout_marginTop="403px"
+       	android:background="@drawable/os_modify_btn_selector" />
+	
+	<Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_marginLeft="512px"
+        android:layout_marginTop="403px"
+       	android:background="@drawable/os_plus_btn_selector" />
+	
+	<Button
+        android:id="@+id/deletebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="604px"
+        android:layout_marginTop="403px"
+        android:background="@drawable/os_minus_btn_selector" />
+	
+	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+        android:layout_marginLeft="696px"
+        android:layout_marginTop="403px" >
+   	    
+   	    <Button
+	        android:id="@+id/nextviewbtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/pdr_btn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+	        android:src="@drawable/pdr_right_icon" />
+	        
+   	</RelativeLayout>
+   	    	
+	<TextView
+        android:id="@+id/pagetext" 
+        android:layout_width="110px"
+        android:layout_height="30px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="20px"
+        android:textColor="#565656"
+        android:layout_marginLeft="25px"
+        android:layout_marginTop="405px" />
+	
+</RelativeLayout>

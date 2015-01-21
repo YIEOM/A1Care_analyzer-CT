@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dv_bg" >
+   	
+    <TextView
+        android:id="@+id/testno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="98px"
+        android:layout_marginTop="93px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+    
+    <TextView
+        android:id="@+id/testdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="98px"
+        android:layout_marginTop="122px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+    
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="98px"
+        android:layout_marginTop="150px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+    
+    <TextView
+        android:id="@+id/primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="98px"
+        android:layout_marginTop="180px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+   	
+    <TextView
+        android:id="@+id/range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="98px"
+        android:layout_marginTop="209px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+    
+    <TextView
+        android:id="@+id/ref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="122px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+    
+    <TextView
+        android:id="@+id/patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="150px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+    
+    <TextView
+        android:id="@+id/operator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="180px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+    
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="209px"
+        android:typeface="sans"
+        android:textSize="14px"
+        android:textColor="#17479E" />
+    
+    <Button
+        android:id="@+id/printbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="415px"
+        android:layout_marginTop="70px"
+        android:background="@drawable/dv_print_selector" />
+    
+   	<Button
+        android:id="@+id/canclebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="416px"
+        android:layout_marginTop="184px"
+        android:background="@drawable/dv_cancel_selector" />
+    	    
+</RelativeLayout>

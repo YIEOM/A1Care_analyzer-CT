@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="20px"
+        android:src="@drawable/date_title" />
+    
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   	
+   	<Button
+        android:id="@+id/escicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="728px"
+        android:background="@drawable/esc_selector" />
+   	        
+   	<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="71px"
+        android:layout_marginTop="237px"
+        android:src="@drawable/date" />
+   	
+   	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+        android:layout_marginLeft="173px"
+        android:layout_marginTop="81px" >
+   	    
+   	    <Button
+	        android:id="@+id/yplusbtn"
+	        android:layout_width="129px"
+	        android:layout_height="114px"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+	        android:src="@drawable/date_up_icon" />
+	        
+   	</RelativeLayout>
+    
+   	<TextView
+   	    android:id="@+id/yeartext"
+   	    android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="162px"
+        android:layout_marginTop="216px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="60px"
+        android:textColor="#565656" />
+   		
+   	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+      	android:layout_marginLeft="173px"
+        android:layout_marginTop="321px" >
+   	    
+   	    <Button
+	        android:id="@+id/yminusbtn"
+	        android:layout_width="129px"
+	        android:layout_height="114px"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+	        android:src="@drawable/date_down_icon" />
+	        
+   	</RelativeLayout>
+	
+	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+        android:layout_marginLeft="361px"
+        android:layout_marginTop="81px" >
+   	    
+   	    <Button
+	        android:id="@+id/mplusbtn"
+	        android:layout_width="129px"
+	        android:layout_height="114px"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+	        android:src="@drawable/date_up_icon" />
+	        
+   	</RelativeLayout>
+   	
+   	<TextView
+   	    android:id="@+id/monthtext"
+   	    android:layout_width="129px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="361px"
+        android:layout_marginTop="216px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="60px"
+        android:textColor="#565656" />
+   		
+   	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+      	android:layout_marginLeft="361px"
+        android:layout_marginTop="321px" >
+   	    
+   	    <Button
+	        android:id="@+id/mminusbtn"
+	        android:layout_width="129px"
+	        android:layout_height="114px"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+	        android:src="@drawable/date_down_icon" />
+	        
+   	</RelativeLayout>
+   	
+	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+        android:layout_marginLeft="553px"
+        android:layout_marginTop="81px" >
+   	    
+   	    <Button
+	        android:id="@+id/dplusbtn"
+	        android:layout_width="129px"
+	        android:layout_height="114px"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+	        android:src="@drawable/date_up_icon" />
+	        
+   	</RelativeLayout>
+   	
+   	<TextView
+   	    android:id="@+id/daytext"
+   	    android:layout_width="129px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="553px"
+        android:layout_marginTop="216px"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textSize="60px"
+        android:textColor="#565656" />
+   		
+	<RelativeLayout 
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+      	android:layout_marginLeft="553px"
+        android:layout_marginTop="321px" >
+   	    
+   	    <Button
+	        android:id="@+id/dminusbtn"
+	        android:layout_width="129px"
+	        android:layout_height="114px"
+	        android:background="@drawable/systemsetting_btn_selector" />
+   	    
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+	        android:src="@drawable/date_down_icon" />
+	        
+   	</RelativeLayout>
+	
+</RelativeLayout>

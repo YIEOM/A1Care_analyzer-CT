@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <Button
+        android:id="@+id/backicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_selector" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115px"
+        android:layout_marginTop="12px"
+        android:src="@drawable/m_title" />
+            
+    <ImageView
+        android:id="@+id/device" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="12px" />
+    
+   	<TextView
+        android:id="@+id/timeText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textSize="24px"
+        android:textColor="#444444"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.2"
+        android:layout_marginLeft="578px"
+        android:layout_marginTop="15px" />
+   		
+   	<Button
+        android:id="@+id/homeicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="726px"
+        android:background="@drawable/home_selector" />
+   	   	
+    <Button
+        android:id="@+id/systembtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="105px"
+        android:layout_marginTop="125px"
+        android:gravity="center"
+	    android:text="SYSTEM CHECK"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:background="@drawable/btn_selector4" />
+
+    <Button
+        android:id="@+id/opticalbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="405px"
+        android:layout_marginTop="125px"
+        android:gravity="center"
+	    android:text="OPTICAL CHECK"
+	    android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28px"
+        android:textColor="#565656"
+        android:background="@drawable/btn_selector4" />
+    
+    <Button
+        android:id="@+id/servicebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105px"
+       	android:layout_marginTop="250px"
+  	    android:background="@drawable/btn_selector4" />
+
+    <RelativeLayout 
+        android:layout_width="300px"
+        android:layout_height="125px"
+  	    android:layout_marginLeft="105px"
+        android:layout_marginTop="250px" >
+	    
+	    <TextView 
+		    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="35px"
+        	android:layout_centerHorizontal="true"
+	        android:text="SERVICE"
+		    android:textStyle="bold"
+	        android:typeface="sans"
+	        android:textSize="28px"
+	        android:textColor="#565656" />
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="65px"
+        	android:layout_centerHorizontal="true"
+        	android:text="(Engineer only)"
+	        android:typeface="sans"
+	        android:textSize="20px"
+	        android:textColor="#565656" />
+	    
+    </RelativeLayout>
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  	    android:layout_marginLeft="405px"
+        android:layout_marginTop="250px"
+        android:background="@drawable/btn4_d" />
+    
+    <TextView
+   	    android:id="@+id/versiontext"
+	    android:layout_width="200px"
+	    android:layout_height="30px"
+	    android:layout_marginLeft="590px"
+	    android:layout_marginTop="440px"
+	    android:gravity="bottom|right"
+        android:typeface="sans"
+        android:textSize="18px"
+        android:textColor="#04A458" />
+    
+</RelativeLayout>

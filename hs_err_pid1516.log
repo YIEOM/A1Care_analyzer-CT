@@ -1,0 +1,130 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=1516, tid=8364
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_10-b18
+# Java VM: Java HotSpot(TM) Client VM (23.6-b04 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0136b400):  JavaThread "Unknown thread" [_thread_in_vm, id=8364, stack(0x01c10000,0x01c60000)]
+
+Stack: [0x01c10000,0x01c60000],  sp=0x01c5f840,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x16f311]
+V  [jvm.dll+0x1694c6]
+V  [jvm.dll+0x2082f]
+V  [jvm.dll+0x208b6]
+V  [jvm.dll+0x2e64d]
+V  [jvm.dll+0x2e8f9]
+V  [jvm.dll+0x77d01]
+V  [jvm.dll+0x780bb]
+V  [jvm.dll+0x129101]
+V  [jvm.dll+0x149baa]
+V  [jvm.dll+0xa997f]
+C  [javaw.exe+0x13ca]
+C  [javaw.exe+0x1e3c]
+C  [javaw.exe+0xa5e3]
+C  [javaw.exe+0xa66d]
+C  [kernel32.dll+0x4ed5c]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x637eb]  RtlInitializeExceptionChain+0xef
+C  [ntdll.dll+0x637be]  RtlInitializeExceptionChain+0xc2
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0136b400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=8364, stack(0x01c10000,0x01c60000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.009 loading class 0x012741d8 done
+Event: 0.009 loading class 0x01273700 done
+Event: 0.009 loading class 0x012736d8
+Event: 0.009 loading class 0x012e9818
+Event: 0.009 loading class 0x012e9818 done
+Event: 0.009 loading class 0x012e9850
+Event: 0.010 loading class 0x012e9850 done
+Event: 0.010 loading class 0x012de760
+Event: 0.010 loading class 0x012de760 done
+Event: 0.010 loading class 0x012736d8 done
+
+
+Dynamic libraries:
+0x000e0000 - 0x0010f000 	C:\Program Files\Java\jdk1.7.0_10\bin\javaw.exe
+0x76db0000 - 0x76eec000 	C:\windows\SYSTEM32\ntdll.dll
+0x758b0000 - 0x75984000 	C:\windows\system32\kernel32.dll
+0x74e70000 - 0x74ebb000 	C:\windows\system32\KERNELBASE.dll
+0x76f40000 - 0x76fe0000 	C:\windows\system32\ADVAPI32.dll
+0x75d50000 - 0x75dfc000 	C:\windows\system32\msvcrt.dll
+0x754e0000 - 0x754f9000 	C:\windows\SYSTEM32\sechost.dll
+0x75ca0000 - 0x75d42000 	C:\windows\system32\RPCRT4.dll
+0x75e00000 - 0x75ec9000 	C:\windows\system32\USER32.dll
+0x75c50000 - 0x75c9e000 	C:\windows\system32\GDI32.dll
+0x76f30000 - 0x76f3a000 	C:\windows\system32\LPK.dll
+0x757b0000 - 0x7584d000 	C:\windows\system32\USP10.dll
+0x739c0000 - 0x73b5e000 	C:\windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll
+0x75850000 - 0x758a7000 	C:\windows\system32\SHLWAPI.dll
+0x755d0000 - 0x755ef000 	C:\windows\system32\IMM32.DLL
+0x75270000 - 0x7533c000 	C:\windows\system32\MSCTF.dll
+0x74db0000 - 0x74de8000 	C:\windows\system32\nvinit.dll
+0x67e30000 - 0x67eed000 	C:\Program Files\Java\jdk1.7.0_10\jre\bin\msvcr100.dll
+0x576b0000 - 0x579fc000 	C:\Program Files\Java\jdk1.7.0_10\jre\bin\client\jvm.dll
+0x6af80000 - 0x6af87000 	C:\windows\system32\WSOCK32.dll
+0x75340000 - 0x75375000 	C:\windows\system32\WS2_32.dll
+0x76f00000 - 0x76f06000 	C:\windows\system32\NSI.dll
+0x72e60000 - 0x72e92000 	C:\windows\system32\WINMM.dll
+0x76f10000 - 0x76f15000 	C:\windows\system32\PSAPI.DLL
+0x739a0000 - 0x739ac000 	C:\Program Files\Java\jdk1.7.0_10\jre\bin\verify.dll
+0x713c0000 - 0x713e0000 	C:\Program Files\Java\jdk1.7.0_10\jre\bin\java.dll
+0x713e0000 - 0x713f3000 	C:\Program Files\Java\jdk1.7.0_10\jre\bin\zip.dll
+0x67750000 - 0x6783b000 	C:\windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:C:\Program Files\Android\sdk\platforms\android-17\android.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 1575 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames isens.hba1c_analyzer.ActionActivityTest
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files/Java/jdk1.7.0_10/bin/../jre/bin/client;C:/Program Files/Java/jdk1.7.0_10/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_10/bin/../jre/lib/i386;C:\WinAVR\bin;C:\WinAVR\utils\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Windows Live\Shared;C:\Program Files\Java\jdk1.7.0_10\bin;C:\cygwin\bin;C:\cygwin\usr\include ;C:\Program Files\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Users\yieom\AppData\Local\Bandizip\7z;C:\Program Files\Android\eclipse;
+USERNAME=yieom
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 2932260k(755960k free), swap 5862768k(2568592k free)
+
+vm_info: Java HotSpot(TM) Client VM (23.6-b04) for windows-x86 JRE (1.7.0_10-b18), built on Nov 28 2012 08:34:29 by "java_re" with unknown MS VC++:1600
+
+time: Mon Jun 02 11:40:16 2014
+elapsed time: 0 seconds
+
