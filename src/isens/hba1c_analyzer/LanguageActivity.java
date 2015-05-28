@@ -196,7 +196,7 @@ public class LanguageActivity extends Activity {
 			
 			Locale locale = new Locale(languageTable[idx]);
 			
-			Class amnClass = Class.forName("android.app.ActivityManagerNative");
+			Class<?> amnClass = Class.forName("android.app.ActivityManagerNative");
 			Object amn = null;
 			Configuration config = null;
 			
@@ -208,7 +208,7 @@ public class LanguageActivity extends Activity {
 			methodGetConfiguration.setAccessible(true);
 			config = (Configuration) methodGetConfiguration.invoke(amn);
 			
-			Class configClass = config.getClass();
+			Class<? extends Configuration> configClass = config.getClass();
 			Field f = configClass.getField("userSetLocale");
 			f.setBoolean(config, true);
 			

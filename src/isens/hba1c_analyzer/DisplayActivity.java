@@ -64,7 +64,7 @@ public class DisplayActivity extends Activity {
 					
 					btnState = true;
 					
-					BrightnessDown();
+					BrightnessUp();
 				}
 			}
 		});
@@ -78,7 +78,7 @@ public class DisplayActivity extends Activity {
 					
 					btnState = true;
 					
-					BrightnessUp();
+					BrightnessDown();
 				}
 			}
 		});
@@ -95,7 +95,7 @@ public class DisplayActivity extends Activity {
 		try {
 			
 			brightnessValue = android.provider.Settings.System.getInt(getContentResolver(), android.provider.Settings.System.SCREEN_BRIGHTNESS);
-//			Log.w("GetBrightness", "Brightness : " + brightnessValue);
+			Log.w("GetBrightness", "Brightness : " + brightnessValue);
 			
 			GaugeDisplay();
 			
@@ -196,11 +196,11 @@ public class DisplayActivity extends Activity {
 		switch(brightnessValue) {
 		
 		case 51		:
-			barGauge.setBackgroundResource(R.drawable.display_bar_gauge_green_1);
+			barGauge.setBackgroundResource(R.drawable.display_bar_gauge_green_5);
 			break;
 
 		case 102	:
-			barGauge.setBackgroundResource(R.drawable.display_bar_gauge_green_2);
+			barGauge.setBackgroundResource(R.drawable.display_bar_gauge_green_4);
 			break;
 			
 		case 153	:
@@ -208,11 +208,11 @@ public class DisplayActivity extends Activity {
 			break;
 			
 		case 204	:
-			barGauge.setBackgroundResource(R.drawable.display_bar_gauge_green_4);
+			barGauge.setBackgroundResource(R.drawable.display_bar_gauge_green_2);
 			break;
 		
 		case 255	:
-			barGauge.setBackgroundResource(R.drawable.display_bar_gauge_green_5);
+			barGauge.setBackgroundResource(R.drawable.display_bar_gauge_green_1);
 			break;
 			
 		default		:
@@ -224,10 +224,10 @@ public class DisplayActivity extends Activity {
 		
 		try {
 			
-//			Log.w("SetBrightness", "Brightness : " + brightnessValue);
+			Log.w("SetBrightness", "Brightness : " + brightnessValue);
 			
 			WindowManager.LayoutParams params = getWindow().getAttributes();
-			params.screenBrightness = (float)brightnessValue/100;
+			params.screenBrightness = (float)brightnessValue/255;
 			getWindow().setAttributes(params);
 			
 			android.provider.Settings.System.putInt(getContentResolver(), android.provider.Settings.System.SCREEN_BRIGHTNESS, brightnessValue);

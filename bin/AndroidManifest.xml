@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="isens.hba1c_analyzer"
     android:versionCode="1"
-    android:versionName="A1Care_v1.3.03-CT"
+    android:versionName="v1.3.04-CT"
     android:sharedUserId="android.uid.system" >
     
     <uses-sdk

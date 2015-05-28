@@ -564,14 +564,14 @@ public class SystemCheckActivity extends Activity {
 		
 			brightness = android.provider.Settings.System.getInt(getContentResolver(), android.provider.Settings.System.SCREEN_BRIGHTNESS);
 		
-			if((brightness % 51) != 0) {
-				
-				WindowManager.LayoutParams params = getWindow().getAttributes();
-				params.screenBrightness = (float)brightness/100;
-				getWindow().setAttributes(params);
-				
-				android.provider.Settings.System.putInt(getContentResolver(), android.provider.Settings.System.SCREEN_BRIGHTNESS, brightness);
-			}
+			if((brightness % 51) != 0) brightness = 51;
+		
+			WindowManager.LayoutParams params = getWindow().getAttributes();
+			params.screenBrightness = (float)brightness/255;
+			getWindow().setAttributes(params);
+			
+			android.provider.Settings.System.putInt(getContentResolver(), android.provider.Settings.System.SCREEN_BRIGHTNESS, brightness);
+		
 		} catch (Exception e) {
 			
 		}

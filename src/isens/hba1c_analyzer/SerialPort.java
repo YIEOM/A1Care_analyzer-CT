@@ -19,6 +19,7 @@ public class SerialPort {
 	
 	public Barcode SerialBarcode;
 	public ResultActivity SerialResult;
+	public BarPriLanActivity mBarPriLanActivity;
 	
 	/* Board Serial set-up */
 	private static FileDescriptor BoardFd;
@@ -770,7 +771,7 @@ public class SerialPort {
 						HHBarcodeRxBuffer = new byte[BARCODE_RX_BUFFER_SIZE];
 						size = HHBarcodeFileInputStream.read(HHBarcodeRxBuffer);
 						
-//						Log.w("HHBarcodeRxThread", "HHBarcodeInputBuffer : " + new String(HHBarcodeRxBuffer));
+						Log.w("HHBarcodeRxThread", "HHBarcodeInputBuffer : " + new String(HHBarcodeRxBuffer));
 						
 						if(size > 0) {
 								
@@ -842,6 +843,19 @@ public class SerialPort {
 	
 						SerialResult = new ResultActivity();
 						SerialResult.PatientIDDisplay(HHbarcodeReception);
+					}
+				}, 0);
+			
+			} else if(TimerDisplay.timerState == whichClock.BarPriLanClock) {
+				
+				Handler mHandler = new Handler(Looper.getMainLooper());
+
+				mHandler.postDelayed(new Runnable() {
+
+					public void run() {
+	
+						mBarPriLanActivity = new BarPriLanActivity();
+						mBarPriLanActivity.HHBBarcodeDisplay(HHbarcodeReception);
 					}
 				}, 0);
 			}

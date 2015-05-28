@@ -120,11 +120,11 @@ public class TestActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-//				stableBtn.setEnabled(false);
-//				
-//				WhichTest = STABLE;
-//				
-//				WhichIntent(TargetIntent.Blank);
+				stableBtn.setEnabled(false);
+				
+				WhichTest = STABLE;
+				
+				WhichIntent(TargetIntent.Blank);
 			}
 		});
 		

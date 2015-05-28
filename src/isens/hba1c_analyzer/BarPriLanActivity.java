@@ -53,8 +53,8 @@ public class BarPriLanActivity extends Activity {
 					text2Title,
 					text2;
 		
-	public EditText editText;
-	public TextView editTextTitle;
+	public static EditText text3;
+	public TextView text3Title;
 	
 	private RelativeLayout testSubLayout;
 	private View errorPopupView;
@@ -86,6 +86,8 @@ public class BarPriLanActivity extends Activity {
 		text1 		 = (TextView)findViewById(R.id.text1);
 		text2Title   = (TextView)findViewById(R.id.text2title);
 		text2        = (TextView)findViewById(R.id.text2);
+		text3Title   = (TextView)findViewById(R.id.text3title);
+		text3        = (EditText)findViewById(R.id.text3);
 		
 //	 	editTextTitle = (TextView)findViewById(R.id.edittexttitle);
 //		editText = (EditText)findViewById(R.id.edittext);
@@ -156,6 +158,7 @@ public class BarPriLanActivity extends Activity {
 		testSubState.setText("READY");
 		text1Title.setText("BARCODE");
 		text2Title.setText("ETHERNET");
+		text3Title.setText("USB BARCODE");
 		cancelBtn.setEnabled(false);
 	}
 	
@@ -350,6 +353,20 @@ public class BarPriLanActivity extends Activity {
 
 						runBtn.setEnabled(true);
 						escBtn.setEnabled(true);
+		            }
+		        });
+		    }
+		}).start();
+	}
+	
+	public void HHBBarcodeDisplay(final StringBuffer str) {
+		
+		new Thread(new Runnable() {
+		    public void run() {    
+		        runOnUiThread(new Runnable(){
+		            public void run() {
+		            	
+		            	text3.setText(str.substring(0, str.length() - 1));
 		            }
 		        });
 		    }

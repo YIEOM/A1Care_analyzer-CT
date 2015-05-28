@@ -150,13 +150,16 @@ public class SystemSettingActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-				if(!btnState) {
+				if(HomeActivity.ANALYZER_SW != HomeActivity.CE) {
 					
-					btnState = true;
+					if(!btnState) {
 					
-					adjustBtn.setEnabled(false);
-				
-					WhichIntent(TargetIntent.Adjustment);
+						btnState = true;
+						
+						adjustBtn.setEnabled(false);
+					
+						WhichIntent(TargetIntent.Adjustment);
+					}
 				}
 			}
 		});
@@ -167,13 +170,16 @@ public class SystemSettingActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-				if(!btnState) {
+				if(HomeActivity.ANALYZER_SW != HomeActivity.CE) {
 					
-					btnState = true;
+					if(!btnState) {
+						
+						btnState = true;
+						
+						collelationBtn.setEnabled(false);
 					
-					collelationBtn.setEnabled(false);
-				
-					WhichIntent(TargetIntent.Correlation);
+						WhichIntent(TargetIntent.Correlation);
+					}
 				}
 			}
 		});
@@ -184,13 +190,16 @@ public class SystemSettingActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-				if(!btnState) {
+				if(HomeActivity.ANALYZER_SW != HomeActivity.CE) {
 					
-					btnState = true;
+					if(!btnState) {
 					
-					soundBtn.setEnabled(false);
-				
-					WhichIntent(TargetIntent.Sound);
+						btnState = true;
+						
+						soundBtn.setEnabled(false);
+					
+						WhichIntent(TargetIntent.Sound);
+					}
 				}
 			}
 		});
@@ -201,13 +210,16 @@ public class SystemSettingActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-				if(!btnState) {
+				if(HomeActivity.ANALYZER_SW != HomeActivity.CE) {
 					
-					btnState = true;
+					if(!btnState) {
+						
+						btnState = true;
+						
+						calibrationBtn.setEnabled(false);
 					
-					calibrationBtn.setEnabled(false);
-				
-					WhichIntent(TargetIntent.Calibration);
+						WhichIntent(TargetIntent.Calibration);
+					}
 				}
 			}
 		});
@@ -218,13 +230,16 @@ public class SystemSettingActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-				if(!btnState) {
+				if(HomeActivity.ANALYZER_SW != HomeActivity.CE) {
 					
-					btnState = true;
+					if(!btnState) {
+						
+						btnState = true;
+						
+						languageBtn.setEnabled(false);
 					
-					languageBtn.setEnabled(false);
-				
-					WhichIntent(TargetIntent.Language);
+						WhichIntent(TargetIntent.Language);
+					}
 				}
 			}
 		});
@@ -235,13 +250,16 @@ public class SystemSettingActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-				if(!btnState) {
+				if(HomeActivity.ANALYZER_SW != HomeActivity.CE) {
 					
-					btnState = true;
+					if(!btnState) {
+						
+						btnState = true;
+						
+						tempBtn.setEnabled(false);
 					
-					tempBtn.setEnabled(false);
-				
-					WhichIntent(TargetIntent.Temperature);
+						WhichIntent(TargetIntent.Temperature);
+					}
 				}
 			}
 		});
@@ -252,19 +270,22 @@ public class SystemSettingActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-				if(!btnState) {
+				if(HomeActivity.ANALYZER_SW != HomeActivity.CE) {
 					
-					btnState = true;
+					if(!btnState) {
+						
+						btnState = true;
+						
+						resetBtn.setEnabled(false);
 					
-					resetBtn.setEnabled(false);
-				
-					resetPopup.showAtLocation(systemSettingLinear, Gravity.CENTER, 0, 0);
-					resetPopup.setAnimationStyle(0);
-					resetPopup.showAsDropDown(resetBtn);
-
-					resetText.setText(R.string.reset);
-					
-					btnState = false;	
+						resetPopup.showAtLocation(systemSettingLinear, Gravity.CENTER, 0, 0);
+						resetPopup.setAnimationStyle(0);
+						resetPopup.showAsDropDown(resetBtn);
+	
+						resetText.setText(R.string.reset);
+						
+						btnState = false;	
+					}
 				}
 			}
 		});

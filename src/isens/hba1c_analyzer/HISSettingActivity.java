@@ -33,23 +33,8 @@ public class HISSettingActivity extends Activity {
 		setContentView(R.layout.hissetting);
 		
 		TimeText = (TextView)findViewById(R.id.timeText);
-				
+		
 		ipaddrEText = (EditText) findViewById(R.id.ipaddretext);
-//		ipaddrEText.setOnEditorActionListener(new OnEditorActionListener() {
-//			
-//			@Override
-//			public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-//				
-//				if(actionId == EditorInfo.IME_ACTION_DONE) {
-//					Log.w("HL7", "done");
-//					ipaddrEText.setImeOptions(EditorInfo.IME_ACTION_DONE);
-//					
-//					return true;
-//				}
-//				
-//				return false;
-//			}
-//		});
 		portEText = (EditText) findViewById(R.id.portetext);
 		sendAppEText = (EditText) findViewById(R.id.sendappetext);
 		sendFacilityEText = (EditText) findViewById(R.id.sendfacilityetext);
@@ -57,16 +42,6 @@ public class HISSettingActivity extends Activity {
 		receiveFacilityEText = (EditText) findViewById(R.id.receivefacilityetext);
 		controlIDEText = (EditText) findViewById(R.id.controlidetext);
 		queryIDEText = (EditText) findViewById(R.id.queryidetext);
-
-		saveBtn = (Button)findViewById(R.id.savebtn);
-		saveBtn.setOnClickListener(new View.OnClickListener() {
-		
-			public void onClick(View v) {
-		
-				saveBtn.setEnabled(false);
-				Save();
-			}
-		});
 		
 		backIcon = (Button)findViewById(R.id.backicon);
 		backIcon.setOnClickListener(new View.OnClickListener() {
@@ -74,6 +49,9 @@ public class HISSettingActivity extends Activity {
 			public void onClick(View v) {
 		
 				backIcon.setEnabled(false);
+				
+				Save();
+				
 				Intent SettingIntent = new Intent(getApplicationContext(), SystemSettingActivity.class);
 				startActivity(SettingIntent);
 				finish();

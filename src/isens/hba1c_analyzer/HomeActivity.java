@@ -192,7 +192,7 @@ public class HomeActivity extends Activity {
 		
 			public void onClick(View v) {
 				
-				if((ANALYZER_SW != DEMO) && (ANALYZER_SW != CE)) {
+				if(ANALYZER_SW != DEMO) {
 				
 					if(!btnState) {
 						

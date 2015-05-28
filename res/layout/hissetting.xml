@@ -55,14 +55,14 @@
         android:layout_height="wrap_content" >
 
         <TableRow
-            android:id="@+id/tableRow1"
+            android:id="@+id/table11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="IP address"
+                android:text="Server IP"
                 android:textSize="20px"
                 android:textColor="#242424" />
 
@@ -80,7 +80,7 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/tableRow2"
+            android:id="@+id/tableRow21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
@@ -104,7 +104,7 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/tableRow3"
+            android:id="@+id/tableRow31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
@@ -128,7 +128,7 @@
         </TableRow>
         
         <TableRow
-            android:id="@+id/tableRow4"
+            android:id="@+id/tableRow41"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
@@ -151,6 +151,78 @@
             
         </TableRow>
         
+        <TableRow
+            android:id="@+id/tableRow51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="System IP"
+                android:textSize="20px"
+                android:textColor="#242424" />
+
+            <EditText
+                android:id="@+id/systemetext"
+                android:layout_marginLeft="20px"
+                android:layout_width="200px"
+                android:layout_height="40px"
+                android:ems="10"
+                android:textSize="20px"
+                android:singleLine="true" 
+                android:imeOptions="actionDone" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subnet mask"
+                android:textSize="20px"
+                android:textColor="#242424" />
+
+            <EditText
+                android:id="@+id/subnetetext"
+                android:layout_marginLeft="20px"
+                android:layout_width="200px"
+                android:layout_height="40px"
+                android:ems="10"
+                android:textSize="20px"
+                android:singleLine="true" 
+                android:imeOptions="actionDone" />
+            
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gateway"
+                android:textSize="20px"
+                android:textColor="#242424" />
+
+            <EditText
+                android:id="@+id/gatewayetext"
+                android:layout_marginLeft="20px"
+                android:layout_width="200px"
+                android:layout_height="40px"
+                android:ems="10"
+                android:textSize="20px"
+                android:singleLine="true" 
+                android:imeOptions="actionDone" />
+            
+        </TableRow>
+        
     </TableLayout>
 
     <TableLayout
@@ -160,7 +232,7 @@
         android:layout_marginTop="120px" >
 
         <TableRow
-            android:id="@+id/tableRow5"
+            android:id="@+id/tableRow12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
@@ -184,7 +256,7 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/tableRow6"
+            android:id="@+id/tableRow22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
@@ -208,7 +280,7 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/tableRow7"
+            android:id="@+id/tableRow23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
@@ -232,7 +304,7 @@
         </TableRow>
         
         <TableRow
-            android:id="@+id/tableRow8"
+            android:id="@+id/tableRow24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
@@ -255,20 +327,54 @@
         
         </TableRow>
         
+        <TableRow
+            android:id="@+id/tableRow25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DNS1"
+                android:textSize="20px"
+                android:textColor="#242424" />
+
+            <EditText
+                android:id="@+id/dns1etext"
+                android:layout_marginLeft="20px"
+                android:layout_width="200px"
+                android:layout_height="40px"
+                android:ems="10"
+                android:textSize="20px"
+                android:singleLine="true" 
+                android:imeOptions="actionDone" />
+        
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DNS2"
+                android:textSize="20px"
+                android:textColor="#242424" />
+
+            <EditText
+                android:id="@+id/dns2etext"
+                android:layout_marginLeft="20px"
+                android:layout_width="200px"
+                android:layout_height="40px"
+                android:ems="10"
+                android:textSize="20px"
+                android:singleLine="true" 
+                android:imeOptions="actionDone" />
+        
+        </TableRow>
+        
     </TableLayout>
 
-    <Button 
-	    android:id="@+id/savebtn"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_marginTop="380px"
-	    android:layout_centerHorizontal="true"
-	    android:background="@drawable/btn_selector2"
-	    android:gravity="center"
-        android:text="SAVE"
-        android:typeface="sans"
-        android:textStyle="bold"
-        android:textSize="24px"
-        android:textColor="#FFFFFF" />
-    
 </RelativeLayout>
